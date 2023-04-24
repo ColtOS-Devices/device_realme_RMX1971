@@ -35,7 +35,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="RMX1971"
 
 # Gapps
-COLT_GAPPS := true
+WITH_GAPPS := true
+TARGET_INCLUDE_NGA := true
 
 # Official
 COLT_BUILD_TYPE := Official
